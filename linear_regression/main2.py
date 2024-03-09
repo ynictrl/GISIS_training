@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 N_DADOS = 1500
 
-p_true = np.array([0.50, 0.20, -0.10, 0.30])
+p_true = np.array([0.50, 0.20, -0.10, 0.30]) # 4 elementos == index max 3, função pol de 3 grau
 
 x = np.linspace(0, 2, N_DADOS, dtype=float)
 
